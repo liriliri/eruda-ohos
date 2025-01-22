@@ -1,0 +1,5 @@
+{
+  "modelVersion": "5.0.0",
+  "description": "Simple webview with eruda loaded automatically",
+  "dependencies": {}
+}

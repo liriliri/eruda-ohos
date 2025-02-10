@@ -8,6 +8,7 @@
       "tablet"
     ],
     "deliveryWithInstall": true,
+    "pages": "$profile:main_pages",
     "abilities": [
       {
         "name": "EntryAbility",
@@ -15,6 +16,11 @@
         "startWindowIcon": "$media:startIcon",
         "exported": true,
         "startWindowBackground": "$color:start_window_background"
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
       }
     ]
   }

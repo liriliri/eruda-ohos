@@ -2,10 +2,20 @@
   "module": {
     "name": "entry",
     "type": "entry",
+    "mainElement": "EntryAbility",
     "deviceTypes": [
       "phone",
       "tablet"
     ],
-    "deliveryWithInstall": true
+    "deliveryWithInstall": true,
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "startWindowIcon": "$media:startIcon",
+        "exported": true,
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ]
   }
 }
